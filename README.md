@@ -27,8 +27,7 @@ Specialty.destroy_all
 ```
 ### Creation of arrays and tables for specialties and cities
 ```
-array_specialties = ['Anesthesiologist', 'Dentist', 'Dermatologist', 'Neurologist', 'Ophthalmologist', 'Psychiatrist', 
-'Radiologist', 'Surgeon']
+array_specialties = ['Anesthesiologist', 'Dentist', 'Dermatologist', 'Neurologist', 'Ophthalmologist', 'Psychiatrist', 'Radiologist', 'Surgeon']
 array_cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego']
 
 array_cities.each do |city| 
@@ -42,8 +41,7 @@ end
 ### Creation of doctors table
 ```
 10.times do
-  d = Doctor.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, zip_code: Faker::Address.zip_code, 
-  city_id: City.all.sample.id, specialty_id: Specialty.all.sample.id)
+  d = Doctor.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, zip_code: Faker::Address.zip_code, city_id: City.all.sample.id, specialty_id: Specialty.all.sample.id)
 end
 ```
 ### Creation of patients table
