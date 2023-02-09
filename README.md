@@ -1,20 +1,27 @@
 # FreeDoc
 
+Project nº1 using Ruby on Rails, and databases with Active Record
+## Diagram
+![This is an image](/assets/images/Diagram_FreeDoc.png)
+
 ## Seed file
 
-Simply run the seed file using $ rails db:seed.
-Here below is a description of the seed content
+Simply run the seed file using :
+`$ rails db:seed`
+Here below is a description of the seed content :
 
 ### Faker gem
-require 'faker'
+`require 'faker'`
 
 ### Clean-up of the database
+`
 City.destroy_all
 Appointment.destroy_all
 JoinTableDoctorSpecialty.destroy_all
 Doctor.destroy_all
 Patient.destroy_all
-Specialty.destroy_all 
+Specialty.destroy_all
+`
 
 ### Creation of arrays and tables for specialties and cities
 array_specialties = ['Anesthesiologist', 'Dentist', 'Dermatologist', 'Neurologist', 'Ophthalmologist', 'Psychiatrist', 'Radiologist', 'Surgeon']
@@ -56,3 +63,4 @@ end
   j.save
 end
 
+## 
