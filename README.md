@@ -1,13 +1,16 @@
 # FreeDoc
 
+Project nº1 using Ruby on Rails, and databases with Active Record
+
 ## Seed file
 
 Simply run the seed file using $ rails db:seed.
-
 Here below is a description of the seed content :
 
 ### Faker gem
+´´´ruby
 require 'faker'
+´´´
 
 ### Clean-up of the database
 City.destroy_all
@@ -57,3 +60,4 @@ end
   j.save
 end
 
+## 
