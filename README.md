@@ -2,7 +2,7 @@
 
 Project nº1 using Ruby on Rails, and databases with Active Record
 ## Diagram
-/assets/images/Diagram_FreeDoc.png
+![This is an image](/assets/images/Diagram_FreeDoc.png)
 
 ## Seed file
 
