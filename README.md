@@ -3,7 +3,8 @@
 ## Seed file
 
 Simply run the seed file using $ rails db:seed.
-Here below is a description of the seed content
+
+Here below is a description of the seed content :
 
 ### Faker gem
 require 'faker'
