@@ -4,7 +4,7 @@ Project nº1 using Ruby on Rails, and databases with Active Record
 
 ## Diagram
 
-<img src=/Diagram_FreeDoc.png width="600">
+<img src=/Diagram_ER_FreeDoc.png width="600">
 
 ## Seed file
 
